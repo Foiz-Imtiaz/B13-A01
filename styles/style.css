@@ -192,5 +192,52 @@ a:hover{
     line-height: 20px;
 
 }
+.idea-container{
 
+    max-width: 1360px;
+    width: 85%;
+    margin: 120px;
+    text-align: center;
+    display: flex;
+    gap: 60px;
+    
+}
+.idea-image img{
+    width: 100%;
+    border-radius: 12px;
+}
+.idea-content{
+    text-align: left;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: 102px auto;
+}
+.idea-content h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #469165;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.idea-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+
+    margin-bottom: 16px;
+}
+.idea-content p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.idea-content ul li{
+    list-style: none;
+    margin-bottom: 16px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #001931;
+}
 
