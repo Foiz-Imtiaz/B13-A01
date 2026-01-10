@@ -21,20 +21,25 @@
 }
 .btn-color:hover{
     background-color: #367a50;
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
 }
 .btn-white{
     background-color:#ffffff1a;
-    border: 1.5px solid #ffffff;
+    border: 1.5px solid #ffffff88;
     padding: 12.5px 16px;
     font-weight: 600;
     border-radius: 4px;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
-    color: #ffffff;
+    color: #ffffffc2;
+    width: 198px;
 }
 .btn-white:hover{
     background-color: #ffffff33;
-    border-color: #ffffffcc;
+    border-color: #ffffff69;
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
 }
 
 
